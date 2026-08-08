@@ -141,6 +141,6 @@ Final validation accuracy: **~75.7%**
 
 ## Notes
 
-- Motion tracking (steps, heart rate) requires a mobile device with real sensors — desktop browsers won't produce data.
+- Motion tracking (steps, heart rate) requires a mobile device with real sensors, desktop browsers won't produce data.
 - Camera-based heart rate measurement and browser motion sensors require a secure (HTTPS) context; local development over plain HTTP will not work for these features on most devices.
 - The supplement scraper respects the target site's `robots.txt` and paces requests to avoid excessive load.
