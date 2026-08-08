@@ -1,6 +1,6 @@
 # GainStack
 
-An AI-powered fitness platform combining a Gemini-based chatbot, a custom-trained food classification CNN, agentic supplement recommendations, browser-native motion tracking, and more — built with a React frontend and a Python/FastAPI backend.
+An AI-powered fitness platform combining a Gemini-based chatbot, a custom-trained food classification CNN, agentic supplement recommendations, browser-native motion tracking, and more, built with a React frontend and a Python/FastAPI backend.
 
 ## Features
 
@@ -27,9 +27,9 @@ An AI-powered fitness platform combining a Gemini-based chatbot, a custom-traine
 - Requests browser geolocation and returns nearby gyms with ratings and addresses
 
 ### Motion Tracker (no wearables required)
-- **Step counting** — real-time peak detection on `DeviceMotionEvent` accelerometer data
-- **Calorie estimation** — MET-based formulas using step count and logged workouts
-- **Heart rate** — camera-based photoplethysmography (PPG): samples the phone camera's red channel over 15 seconds, detrends the signal, and estimates BPM via frequency-domain analysis
+- **Step counting**: real-time peak detection on `DeviceMotionEvent` accelerometer data
+- **Calorie estimation**: MET-based formulas using step count and logged workouts
+- **Heart rate**: camera-based photoplethysmography (PPG): samples the phone camera's red channel over 15 seconds, detrends the signal, and estimates BPM via frequency-domain analysis
 
 ### Supplement Recommendation Agent
 - Web scraper (BeautifulSoup) pulling live product data across 7 supplement categories from a real retailer
@@ -49,10 +49,10 @@ An AI-powered fitness platform combining a Gemini-based chatbot, a custom-traine
 **Backend:** Python, FastAPI
 **Database & Auth:** Firebase (Authentication, Firestore)
 **AI/ML:**
-- Google Gemini API (`google-genai`) — chat, vision, structured JSON generation
-- TensorFlow / Keras — custom CNN training (EfficientNetB0, transfer learning)
-- Hugging Face Transformers — BLIP image captioning
-- Google Places API — gym search
+- Google Gemini API (`google-genai`) : chat, vision, structured JSON generation
+- TensorFlow / Keras : custom CNN training (EfficientNetB0, transfer learning)
+- Hugging Face Transformers : BLIP image captioning
+- Google Places API : gym search
 
 **Other:** BeautifulSoup4 (web scraping), pypdf (PDF text extraction), NumPy
 
