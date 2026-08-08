@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Firebase service account key — NEVER commit this
+firebase-service-account.json
+
+# Environment variables / secrets
+.env
+
+# OS / editor junk
+.DS_Store
+.vscode/
