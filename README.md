@@ -139,8 +139,15 @@ The food classifier was trained via transfer learning (EfficientNetB0, ImageNet-
 
 Final validation accuracy: **~75.7%**
 
+## Scope of Improvement
+
+- Allow users to update their profile details after onboarding (currently a one-time form with no edit flow)
+- Add full chat history browsing/search to the chatbot (currently limited to the most recent messages used as context)
+- More efficient caching in the web scraper (smarter invalidation, incremental updates instead of full re-scrapes)
+- Various backend changes (tightened error handling, rate-limiting per user, migrating dev-only workarounds to production-ready equivalents)
+
 ## Notes
 
-- Motion tracking (steps, heart rate) requires a mobile device with real sensors, desktop browsers won't produce data.
+- Motion tracking (steps, heart rate) requires a mobile device with real sensors — desktop browsers won't produce data.
 - Camera-based heart rate measurement and browser motion sensors require a secure (HTTPS) context; local development over plain HTTP will not work for these features on most devices.
 - The supplement scraper respects the target site's `robots.txt` and paces requests to avoid excessive load.
